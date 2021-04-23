@@ -13,6 +13,11 @@ function App() {
           <Route path="/Recomendacoes">
             <Recomendacoes />
           </Route>
+          <Route path="/Montar">
+            <div>
+              Montar
+            </div>
+          </Route>
           <Route path="/">
             <Home />
           </Route>
