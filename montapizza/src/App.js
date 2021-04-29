@@ -5,6 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import Home from './pages/Home'
+import Montar from './pages/Montar'
 import Recomendacoes from './pages/Recomendacoes'
 function App() {
   return (
@@ -14,9 +15,7 @@ function App() {
             <Recomendacoes />
           </Route>
           <Route path="/Montar">
-            <div>
-              Montar
-            </div>
+            <Montar />
           </Route>
           <Route path="/">
             <Home />

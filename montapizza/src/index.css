@@ -5,3 +5,10 @@
 body{
   background-color: #FA8238;
 }
+.form_montar {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
