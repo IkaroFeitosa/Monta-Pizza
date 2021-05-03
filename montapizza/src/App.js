@@ -7,6 +7,7 @@ import {
 import Home from './pages/Home'
 import Montar from './pages/Montar'
 import Recomendacoes from './pages/Recomendacoes'
+import Tamanho from './pages/Tamanho'
 function App() {
   return (
     <Router>
@@ -16,6 +17,9 @@ function App() {
           </Route>
           <Route path="/Montar">
             <Montar />
+          </Route>
+          <Route path="/Tamanho">
+            <Tamanho />
           </Route>
           <Route path="/">
             <Home />
